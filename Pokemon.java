@@ -2,7 +2,7 @@
 
 import java.util.ArrayList;
 
-public abstract class Pokemon implements Card
+public abstract class Pokemon extends Card
 {
 
 

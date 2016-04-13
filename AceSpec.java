@@ -2,7 +2,7 @@
 
 
 
-public interface AceSpec extends Item
+public abstract class AceSpec extends Item
 {
     
     

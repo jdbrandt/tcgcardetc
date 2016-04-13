@@ -1,6 +1,6 @@
  
 
-public abstract class SpecialEnergy implements Energy
+public abstract class SpecialEnergy extends Energy
 {
     
     private Type type;

@@ -1,7 +1,7 @@
  
 
 
-public interface Stadium extends Trainer
+public abstract class Stadium extends Trainer
 {
     
     

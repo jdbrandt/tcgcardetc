@@ -1,7 +1,7 @@
  
 
 
-public interface Item extends Trainer
+public abstract class Item extends Trainer
 {
     
 }

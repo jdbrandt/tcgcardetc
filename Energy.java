@@ -1,6 +1,6 @@
  
-public interface Energy extends Card
+public abstract class Energy extends Card
 {
-    public Type getType();
+    public abstract Type getType();
     
 }

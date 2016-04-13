@@ -1,6 +1,6 @@
  
 
-public interface Supporter extends Trainer
+public abstract class Supporter extends Trainer
 {
     
     

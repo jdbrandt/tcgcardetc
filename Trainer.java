@@ -1,6 +1,6 @@
  
 
-public interface Trainer extends Card
+public abstract class Trainer extends Card
 {
     
     

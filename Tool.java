@@ -1,6 +1,6 @@
  
 
-public interface Tool extends Item
+public abstract class Tool extends Item
 
 {
     
