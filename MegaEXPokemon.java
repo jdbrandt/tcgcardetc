@@ -5,6 +5,12 @@ import java.util.ArrayList;
 public abstract class MegaEXPokemon extends Pokemon
 {
     
+    public MegaEXPokemon()
+    {
+        super();
+        
+    }
+    
     public MegaEXPokemon(int maxhp, String n, ArrayList<Attribute> allattributes, ArrayList<Type> t, int retreatcost, Type weak, Type resis) 
     {
         super(maxhp, n, allattributes, t, retreatcost, weak, resis);
@@ -21,7 +27,7 @@ public abstract class MegaEXPokemon extends Pokemon
         super(maxhp, n, allattributes, t, retreatcost, weak, resis, attachedPokes, ts);
     }
     
-    public MegaEXPokemon(int maxhp, String n, ArrayList<Attribute> allattributes, ArrayList<Type> t, int retreatcost, Type weak, Type resis, ArrayList<Pokemon> attachedPokes, ArrayList<Tool> ts, ArrayList<Type> attachedE)
+    public MegaEXPokemon(int maxhp, String n, ArrayList<Attribute> allattributes, ArrayList<Type> t, int retreatcost, Type weak, Type resis, ArrayList<Pokemon> attachedPokes, ArrayList<Tool> ts, ArrayList<Energy> attachedE)
     {
         super(maxhp, n, allattributes, t, retreatcost, weak, resis, attachedPokes, ts, attachedE);
     }

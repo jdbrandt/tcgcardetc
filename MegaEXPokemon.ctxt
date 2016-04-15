@@ -1,10 +1,12 @@
 #BlueJ class context
-comment0.params=maxhp\ n\ allattributes\ t\ retreatcost\ weak\ resis
-comment0.target=MegaEXPokemon(int,\ java.lang.String,\ java.util.ArrayList,\ java.util.ArrayList,\ int,\ Type,\ Type)
-comment1.params=maxhp\ n\ allattributes\ t\ retreatcost\ weak\ resis\ attachedPokes
-comment1.target=MegaEXPokemon(int,\ java.lang.String,\ java.util.ArrayList,\ java.util.ArrayList,\ int,\ Type,\ Type,\ java.util.ArrayList)
-comment2.params=maxhp\ n\ allattributes\ t\ retreatcost\ weak\ resis\ attachedPokes\ ts
-comment2.target=MegaEXPokemon(int,\ java.lang.String,\ java.util.ArrayList,\ java.util.ArrayList,\ int,\ Type,\ Type,\ java.util.ArrayList,\ java.util.ArrayList)
-comment3.params=maxhp\ n\ allattributes\ t\ retreatcost\ weak\ resis\ attachedPokes\ ts\ attachedE
-comment3.target=MegaEXPokemon(int,\ java.lang.String,\ java.util.ArrayList,\ java.util.ArrayList,\ int,\ Type,\ Type,\ java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList)
-numComments=4
+comment0.params=
+comment0.target=MegaEXPokemon()
+comment1.params=maxhp\ n\ allattributes\ t\ retreatcost\ weak\ resis
+comment1.target=MegaEXPokemon(int,\ java.lang.String,\ java.util.ArrayList,\ java.util.ArrayList,\ int,\ Type,\ Type)
+comment2.params=maxhp\ n\ allattributes\ t\ retreatcost\ weak\ resis\ attachedPokes
+comment2.target=MegaEXPokemon(int,\ java.lang.String,\ java.util.ArrayList,\ java.util.ArrayList,\ int,\ Type,\ Type,\ java.util.ArrayList)
+comment3.params=maxhp\ n\ allattributes\ t\ retreatcost\ weak\ resis\ attachedPokes\ ts
+comment3.target=MegaEXPokemon(int,\ java.lang.String,\ java.util.ArrayList,\ java.util.ArrayList,\ int,\ Type,\ Type,\ java.util.ArrayList,\ java.util.ArrayList)
+comment4.params=maxhp\ n\ allattributes\ t\ retreatcost\ weak\ resis\ attachedPokes\ ts\ attachedE
+comment4.target=MegaEXPokemon(int,\ java.lang.String,\ java.util.ArrayList,\ java.util.ArrayList,\ int,\ Type,\ Type,\ java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList)
+numComments=5

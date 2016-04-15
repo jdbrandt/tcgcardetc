@@ -5,9 +5,12 @@ import java.util.ArrayList;
 public abstract class Pokemon extends Card
 {
 
-
-
-
+    /**
+      *Would love to use final, especially for ArrayLists, but, final would mostly be useless
+      *and it'd be annoying to be inconcsistent, even if it's sort of consistent
+      *If that explanation is confusing, send all hate mail to my GitHub, and I'll try to respond
+      *in a timely fashion
+    */
     protected int maxHP;
     protected String name;
     protected ArrayList<Attribute> allAttributes;
@@ -16,10 +19,15 @@ public abstract class Pokemon extends Card
     protected Type weakness;
     protected Type resistance;
     protected int currentHP;
-    protected ArrayList<Type> attachedEnergy;
+    protected ArrayList<Energy> attachedEnergy;
     protected ArrayList<Tool> attachedTools;
     protected ArrayList<Pokemon> attachedPokemon;
-
+    
+    public Pokemon()
+    {
+    }
+    
+    
     public Pokemon(int maxhp, String n, ArrayList<Attribute> allattributes, ArrayList<Type> t, int retreatcost, Type weak, Type resis) 
     {
         maxHP = maxhp;
@@ -30,7 +38,7 @@ public abstract class Pokemon extends Card
         weakness = weak;
         resistance = resis;
 
-        attachedEnergy = new ArrayList<Type>();
+        attachedEnergy = new ArrayList<Energy>();
         attachedTools = new ArrayList<Tool>();
         attachedPokemon = new ArrayList<Pokemon>();
     }
@@ -40,7 +48,7 @@ public abstract class Pokemon extends Card
         this(maxhp, n, allattributes, t, retreatcost, weak, resis);
         attachedPokemon = attachedPokes;
 
-        attachedEnergy = new ArrayList<Type>();
+        attachedEnergy = new ArrayList<Energy>();
         attachedTools = new ArrayList<Tool>();
     }
 
@@ -49,10 +57,10 @@ public abstract class Pokemon extends Card
         this(maxhp, n, allattributes, t, retreatcost, weak, resis, attachedPokes);
         attachedTools = ts;
 
-        attachedEnergy = new ArrayList<Type>();
+        attachedEnergy = new ArrayList<Energy>();
     }
 
-    public Pokemon(int maxhp, String n, ArrayList<Attribute> allattributes, ArrayList<Type> t, int retreatcost, Type weak, Type resis, ArrayList<Pokemon> attachedPokes, ArrayList<Tool> ts, ArrayList<Type> attachedE)
+    public Pokemon(int maxhp, String n, ArrayList<Attribute> allattributes, ArrayList<Type> t, int retreatcost, Type weak, Type resis, ArrayList<Pokemon> attachedPokes, ArrayList<Tool> ts, ArrayList<Energy> attachedE)
     {
         this(maxhp, n, allattributes, t, retreatcost, weak, resis, attachedPokes, ts);
         attachedEnergy = attachedE;
@@ -98,7 +106,7 @@ public abstract class Pokemon extends Card
         type.add(t);    
     }
 
-    public void addEnergy(Type e)
+    public void addEnergy(Energy e)
     {
         attachedEnergy.add(e);
     }
@@ -168,7 +176,7 @@ public abstract class Pokemon extends Card
         return currentHP;
     }
 
-    public ArrayList<Type> getAttachedEnergy()
+    public ArrayList<Energy> getAttachedEnergy()
     {
         return attachedEnergy;
     }
@@ -186,7 +194,8 @@ public abstract class Pokemon extends Card
 
     
     
-    public abstract Effect getEffect(Attribute attr);
+    
+            
     
     
     

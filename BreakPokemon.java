@@ -4,6 +4,11 @@ import java.util.ArrayList;
 
 public abstract class BreakPokemon extends Pokemon
 {
+    public BreakPokemon()
+    {
+        super();
+    }
+    
     
     public BreakPokemon(int maxhp, String n, ArrayList<Attribute> allattributes, ArrayList<Type> t, int retreatcost, Type weak, Type resis) 
     {
@@ -21,7 +26,7 @@ public abstract class BreakPokemon extends Pokemon
         super(maxhp, n, allattributes, t, retreatcost, weak, resis, attachedPokes, ts);
     }
     
-    public BreakPokemon(int maxhp, String n, ArrayList<Attribute> allattributes, ArrayList<Type> t, int retreatcost, Type weak, Type resis, ArrayList<Pokemon> attachedPokes, ArrayList<Tool> ts, ArrayList<Type> attachedE)
+    public BreakPokemon(int maxhp, String n, ArrayList<Attribute> allattributes, ArrayList<Type> t, int retreatcost, Type weak, Type resis, ArrayList<Pokemon> attachedPokes, ArrayList<Tool> ts, ArrayList<Energy> attachedE)
     {
         super(maxhp, n, allattributes, t, retreatcost, weak, resis, attachedPokes, ts, attachedE);
     }

@@ -5,7 +5,12 @@ public abstract class Card
     public Card()
     {}
     
-    public abstract Effect getEffect();
+    /**
+     * Removed 
+     * public abstract Effect getEffect();
+     * b/c Pokemon is really an ArrayList of various Attributes
+     */
+    
     
     
     
