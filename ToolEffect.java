@@ -7,4 +7,10 @@ public abstract class ToolEffect extends ItemEffect
         super();
     }
     
+    /**
+     * This is meant to deprecate the old activate, as the Energy needs to know which Pokemon it has 
+     * been attached to so that it may perform its effect. 
+     */
+    
+    public abstract void activate(Game g, Pokemon p);
 }

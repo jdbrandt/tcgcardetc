@@ -1,2 +1,5 @@
 #BlueJ class context
-numComments=0
+comment0.params=g\ p
+comment0.target=void\ activate(Game,\ Pokemon)
+comment0.text=\r\n\ This\ is\ meant\ to\ deprecate\ the\ old\ activate,\ as\ the\ Energy\ needs\ to\ know\ which\ Pokemon\ it\ has\ \r\n\ been\ attached\ to\ so\ that\ it\ may\ perform\ its\ effect.\ \r\n
+numComments=1

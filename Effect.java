@@ -4,5 +4,5 @@ public abstract class Effect
 {
     public Effect(){};
     
-    public abstract void activate(Object o);
+    public abstract void activate(Game g);
 }
