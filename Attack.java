@@ -8,6 +8,7 @@ public abstract class Attack extends Attribute
     public Attack()
     {
         super();
+        requirements = new ArrayList<Type>();
     }
     
     
