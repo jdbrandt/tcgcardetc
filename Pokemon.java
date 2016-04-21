@@ -126,7 +126,7 @@ public abstract class Pokemon extends Card
         type.add(t);
     }
 
-    public void removeEnergy(Type e)
+    public void removeEnergy(Energy e)
     {
         attachedEnergy.remove(e);
     }

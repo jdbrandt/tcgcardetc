@@ -1,2 +1,6 @@
 #BlueJ class context
-numComments=0
+comment0.params=g
+comment0.target=void\ doActiveDamage(Game)
+comment1.params=g
+comment1.target=int\ getDamage(Game)
+numComments=2
