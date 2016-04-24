@@ -125,6 +125,7 @@ public abstract class Pokemon extends Card
     {
         type.add(t);
     }
+    
 
     public void removeEnergy(Energy e)
     {
@@ -191,7 +192,22 @@ public abstract class Pokemon extends Card
         return attachedPokemon;
     }
 
-
+    
+    public void setAttachedPokemon(ArrayList<Pokemon> ps)
+    {
+        attachedPokemon = ps;
+    }
+    
+    public void setAttachedEnergy(ArrayList<Energy> es)
+    {
+        attachedEnergy = es;
+        
+    }
+    
+    public void setAttachedTools(ArrayList<Tool> ts)
+    {
+        attachedTools = ts;
+    }
     
     
     
