@@ -1,4 +1,8 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Attack()
-numComments=1
+comment1.params=
+comment1.target=java.util.ArrayList\ getRequirements()
+comment2.params=reqs
+comment2.target=void\ setRequirements(java.util.ArrayList)
+numComments=3

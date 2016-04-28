@@ -176,17 +176,17 @@ public abstract class Pokemon extends Card
         return currentHP;
     }
 
-    public ArrayList<Energy> getAttachedEnergy()
+    public ArrayList<Energy> getEnergy()
     {
         return attachedEnergy;
     }
 
-    public ArrayList<Tool> getAttachedTools()
+    public ArrayList<Tool> getTools()
     {
         return attachedTools;
     }
 
-    public ArrayList<Pokemon> getAttachedPokemon()
+    public ArrayList<Pokemon> getPokemon()
     {
         return attachedPokemon;
     }
