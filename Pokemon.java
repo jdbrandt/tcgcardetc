@@ -152,7 +152,7 @@ public abstract class Pokemon extends Card
         return allAttributes;
     }
 
-    public ArrayList<Type> getType()
+    public ArrayList<Type> getTypes()
     {
         return type;
     }
