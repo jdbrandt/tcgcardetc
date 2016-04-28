@@ -21,4 +21,9 @@ public abstract class Attack extends Attribute
         }
     }
     
+    public ArrayList<Type> getOriginal()
+    {
+        return originalRequirements;
+    }
+    
 }
