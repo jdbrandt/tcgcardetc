@@ -1,4 +1,6 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Attack()
-numComments=1
+comment1.params=
+comment1.target=void\ cloneOriginal()
+numComments=2

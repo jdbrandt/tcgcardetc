@@ -9,3 +9,5 @@ public enum Type
     {
         G, R, W, L, F, P, C, D, M, N, Y;
     }
+    
+   
