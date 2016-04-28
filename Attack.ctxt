@@ -5,4 +5,6 @@ comment1.params=
 comment1.target=void\ cloneOriginal()
 comment2.params=
 comment2.target=java.util.ArrayList\ getOriginal()
-numComments=3
+comment3.params=
+comment3.target=java.util.ArrayList\ getRequirements()
+numComments=4
