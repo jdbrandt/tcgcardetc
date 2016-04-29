@@ -7,4 +7,6 @@ public abstract class SpecialEnergyEffect extends Effect
      */
     
     public abstract void activate(Game g, Pokemon p);
+    
+    public abstract void deactivate(Game g, Pokemon p);
 }

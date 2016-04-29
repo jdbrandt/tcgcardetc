@@ -13,7 +13,7 @@ public abstract class Pokemon extends Card
     */
     protected int maxHP;
     protected String name;
-    protected ArrayList<Attribute> allAttributes;
+    protected ArrayList<Attribute> attributes;
     protected ArrayList<Type> type;
     protected int retreatCost;
     protected Type weakness;
@@ -32,7 +32,7 @@ public abstract class Pokemon extends Card
     {
         maxHP = maxhp;
         name = n;
-        allAttributes = allattributes;
+        attributes = allattributes;
         type = t;
         retreatCost = retreatcost;
         weakness = weak;
@@ -98,7 +98,7 @@ public abstract class Pokemon extends Card
 
     public void addAttribute(Attribute a)
     {
-        allAttributes.add(a);
+        attributes.add(a);
     }
 
     public void addType(Type t)
@@ -118,13 +118,14 @@ public abstract class Pokemon extends Card
 
     public void removeAttribute(Attribute a)
     {
-        allAttributes.add(a);
+        attributes.add(a);
     }
 
     public void removeType(Type t)
     {
         type.add(t);
     }
+    
 
     public void removeEnergy(Energy e)
     {
@@ -146,12 +147,12 @@ public abstract class Pokemon extends Card
         return name;
     }
 
-    public ArrayList<Attribute> getAllAttributes()
+    public ArrayList<Attribute> getAttributes()
     {
-        return allAttributes;
+        return attributes;
     }
 
-    public ArrayList<Type> getType()
+    public ArrayList<Type> getTypes()
     {
         return type;
     }
@@ -191,7 +192,22 @@ public abstract class Pokemon extends Card
         return attachedPokemon;
     }
 
-
+    
+    public void setPokemon(ArrayList<Pokemon> ps)
+    {
+        attachedPokemon = ps;
+    }
+    
+    public void setEnergy(ArrayList<Energy> es)
+    {
+        attachedEnergy = es;
+        
+    }
+    
+    public void setTools(ArrayList<Tool> ts)
+    {
+        attachedTools = ts;
+    }
     
     
     
