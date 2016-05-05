@@ -34,10 +34,6 @@ public abstract class Attack extends Attribute
     {
         return originalRequirements;
     }
-    
-    public ArrayList<Type> getRequirements()
-    {
-        return requirements;
-    }
+
     
 }

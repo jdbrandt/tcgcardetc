@@ -2,16 +2,11 @@
 comment0.params=
 comment0.target=Attack()
 comment1.params=
-<<<<<<< HEAD
 comment1.target=java.util.ArrayList\ getRequirements()
 comment2.params=reqs
 comment2.target=void\ setRequirements(java.util.ArrayList)
-numComments=3
-=======
-comment1.target=void\ cloneOriginal()
-comment2.params=
-comment2.target=java.util.ArrayList\ getOriginal()
 comment3.params=
-comment3.target=java.util.ArrayList\ getRequirements()
-numComments=4
->>>>>>> origin/master
+comment3.target=void\ cloneOriginal()
+comment4.params=
+comment4.target=java.util.ArrayList\ getOriginal()
+numComments=5
