@@ -211,6 +211,18 @@ public abstract class Pokemon extends Card
     }
     
     
+    public int getDamageMod()
+    {
+        return damageMod;
+    }
+    
+    public void setDamageMod(int newMod)
+    {
+        damageMod = newMod;
+    }
+    
+    
+    
     
             
     
