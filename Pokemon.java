@@ -22,6 +22,7 @@ public abstract class Pokemon extends Card
     protected ArrayList<Energy> attachedEnergy;
     protected ArrayList<Tool> attachedTools;
     protected ArrayList<Pokemon> attachedPokemon;
+    protected int damageMod = 0;
     
     public Pokemon()
     {
